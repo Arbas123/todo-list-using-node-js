@@ -1,0 +1,155 @@
+body {
+  background: #fff;
+  font-family: tahoma;
+  color: #989898;
+  margin: 0;
+  font-size:1.0em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+h1 {
+  font-size: 1.2em;
+  color: #999;
+  margin-bottom: 0;
+  margin:20px;
+}
+
+form {
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+i {
+  float: right;
+}
+
+i.icon-black {
+  color: black;
+  padding: 5px;
+}
+
+span {
+  display: block;
+  overflow: hidden;
+    padding-right:15%;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 7px;
+  margin-right: auto;
+  background:#aaa;
+  border: 1px solid blue;
+  /* font-size: 1.0em; */
+  color: #000;
+}
+
+button {
+  padding: 10px;
+  width: 15%;
+  float: right;
+  background: inherit;
+  border: 0;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 8px !important;
+  margin: 0;
+}
+
+li {
+  color: black;
+  margin-bottom: 5px;
+  padding: 8px;
+  padding-bottom: 15px;;
+  background: #aaa;
+}
+
+li:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+
+/* TODOLIST-CONTAINER */
+.todoList-container {
+  padding: 15px;
+  background: white;
+  width: 60%;
+}
+
+@media (max-width: 600px) {
+  .todoList-container {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* TODOFORM-CONTAINER */
+.todoForm-container {
+  width: auto;
+  background: #eee;
+  margin: 0;
+  padding: 10px;
+}
+
+
+
+/* TODOLIST */
+.todoList {
+  margin: 0 auto;
+  width:100%;
+  background: #eee;
+}
+
+.inputButton {
+  display: inline-block;
+  width: 80%;
+  height: auto;
+  background-color: #aaa;
+  padding: 0;
+  margin: 0;
+}
+
+/* EDIT FORM CSS */
+.editForm {
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.editForm input {
+ flex:3;
+}
+
+.editForm span {
+  display: block;
+  overflow: hidden;
+}
+
+.editForm button {
+  float: right;
+  font-size: 20px;
+  width:auto;
+  height:auto;
+  background: inherit;
+}
+
+.editForm a {
+  float: right;
+  margin-top:9px;
+  font-size:1.7em;
+  height:auto;
+}
+
